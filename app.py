@@ -1,7 +1,9 @@
 import random
 
 def guess_the_number():
+
     print("\nWelcome to the Guess the BIG game!")
+
     lower_bound = 1
     upper_bound = 100
     secret_number = random.randint(lower_bound, upper_bound)
