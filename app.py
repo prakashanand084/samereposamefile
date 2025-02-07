@@ -17,7 +17,7 @@ def guess_the_number():
             elif guess < secret_number:
                 print("Too low! Try again.")
             elif guess > secret_number:
-                print("Too high! Try again.")
+                print("Rixi game! Try again.")
             else:
                 print(f"Congratulations! You guessed the number {secret_number} in {attempts} attempts! 🎉")
                 break
